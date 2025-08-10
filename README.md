@@ -36,11 +36,11 @@ It uses a pre-trained YOLOv8 model for detection and includes two main scripts:
 
 2. Installation
 
-´´´bash
+```bash
 # Clone the repository
 git clone https://github.com/your-github-name/human-detection-project.git
 cd human-detection-project
-´´´
+```
 
 ### Install dependencies
 
@@ -55,15 +55,15 @@ Get it here: Ultralytics YOLOv8 Models
 
 **Detect in an Image**
 
-´´´bash
+```bash
 python detect_image.py --source "path/to/image.jpg"
-´´´
+```
 
 **Detect in Live Webcam**
 
-´´´bash
+```bash
 python detect_video.py --source 0
-´´´
+```
 
 **Note: 0 refers to your default webcam.**
 
