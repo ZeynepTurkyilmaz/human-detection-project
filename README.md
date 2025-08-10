@@ -44,9 +44,9 @@ cd human-detection-project
 
 ### Install dependencies
 
-´´´bash
+```bash
 pip install -r requirements.txt
-´´´
+```
 
 Download the YOLOv8 pre-trained model (yolov8n.pt) and place it in the models/ folder.
 Get it here: Ultralytics YOLOv8 Models
