@@ -38,15 +38,15 @@ It uses a pre-trained YOLOv8 model for detection and includes two main scripts:
 
 '''bash
 # Clone the repository
-git clone https://github.com/ZeynepTurkyilmaz/human-detection-project.git
+git clone https://github.com/your-github-name/human-detection-project.git
 cd human-detection-project
-'''
+
 
 ### Install dependencies
 
 '''bash
 pip install -r requirements.txt
-'''
+
 
 Download the YOLOv8 pre-trained model (yolov8n.pt) and place it in the models/ folder.
 Get it here: Ultralytics YOLOv8 Models
@@ -57,13 +57,13 @@ Get it here: Ultralytics YOLOv8 Models
 
 '''bash
 python detect_image.py --source "path/to/image.jpg"
-'''
+
 
 **Detect in Live Webcam**
 
 '''bash
 python detect_video.py --source 0
-'''
+
 
 **Note: 0 refers to your default webcam.**
 
