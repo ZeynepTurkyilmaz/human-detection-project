@@ -1,0 +1,6 @@
+ultralytics
+opencv-python
+'''This file lists the Python packages required for the project.
+ultralytics is the library for using the YOLOv8 model.
+opencv-python is a popular library for computer vision tasks,
+used here for handling images and video streams.'''
